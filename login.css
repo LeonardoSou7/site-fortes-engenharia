@@ -127,3 +127,16 @@ a .buttons {
 .recuperar-senha:hover {
     text-decoration: underline;
 }
+
+html ::-webkit-scrollbar {
+    width: 13px;
+}
+
+html ::-webkit-scrollbar-thumb {
+    border-radius: 2px;
+    background: #4673cc;
+}
+
+html ::-webkit-scrollbar-track {
+    background: #fff;
+}

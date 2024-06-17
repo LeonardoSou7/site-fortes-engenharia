@@ -104,16 +104,6 @@ header {
 }
 
 
-
-
-
-
-
-
-
-
-
-
 .custom-file-upload {
     display: inline-block;
     padding: 6px 12px;
@@ -138,4 +128,17 @@ header {
 
 .custom-file-upload:hover {
     background-color: #003399;
+}
+
+html ::-webkit-scrollbar {
+    width: 13px;
+}
+
+html ::-webkit-scrollbar-thumb {
+    border-radius: 2px;
+    background: #4673cc;
+}
+
+html ::-webkit-scrollbar-track {
+    background: #fff;
 }
