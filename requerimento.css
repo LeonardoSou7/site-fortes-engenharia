@@ -1,0 +1,141 @@
+body {
+    font-family: 'Inika', serif;
+    background-color: #C0C0C0;
+    /* Cinza Prateado */
+    margin: 0;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-image: url('projeto.jpg');
+    /* imagem de fundo */
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.container {
+    display: flex;
+    width: 80%;
+    height: 80%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar {
+    background-color: #dcdcdc;
+    padding: 20px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+}
+
+.btn {
+    background-color: #0044cc;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+    /* p */
+}
+
+.btn:hover {
+    background-color: #003399;
+}
+
+.voltar {
+    margin-top: auto;
+}
+
+.content {
+    padding: 20px;
+    width: 100%;
+    overflow-y: auto;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form h2 {
+    color: #0044cc;
+}
+
+.form label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.form input[type="text"],
+.form textarea,
+.form input[type="file"] {
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.form textarea {
+    resize: none;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.custom-file-upload {
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    background-color: #0044cc;
+    color: white;
+    border: 1px solid #033366;
+    border-radius: 4px;
+    font-size: 16px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+#project-files {
+    display: none;
+}
+
+#file-chosen {
+    margin-left: 10px;
+    font-family: 'Inika', serif;
+}
+
+.custom-file-upload:hover {
+    background-color: #003399;
+}

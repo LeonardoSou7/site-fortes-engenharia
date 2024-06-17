@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fortes Engenharia - Projetos</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inika:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="status.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <header>
+                <img src="logo.png" alt="Fortes Engenharia Logo" class="logo">
+            </header>
+            <button class="btn" onclick="showProject(1)">Projeto 1</button>
+            <button class="btn" onclick="showProject(2)">Projeto 2</button>
+            <button class="btn" onclick="showProject(3)">Projeto 3</button>
+            <a href="perfil.html"><button type="button" class="btn voltar">Voltar</button></a>
+        </div>
+        <div class="content">
+            <div id="project-1" class="project active">
+                <h2>Projeto 1</h2>
+                <button class="btn1">Aprovado</button>
+
+                <p>Prazo: 19/11/2024</p>
+                <p>O projeto apresenta objetivos claros e bem definidos, focando na melhoria da qualidade do saneamento
+                    básico para as comunidades e regiões de baixa renda.</p>
+
+            </div>
+            <div id="project-2" class="project">
+                <h2>Projeto 2</h2>
+                <button class="btn2">Rejeitado</button>
+
+                <p>Prazo: 13/03/2024</p>
+                <p>O projeto não apresenta meios claros e bem definidos de alcançar o objetivo, está escasso as
+                    informações sobre o uso dos recursos e como a qualidade educacional para crianças e jovens em
+                    situação de vulnerabilidade aumentará.</p>
+
+            </div>
+            <div id="project-3" class="project">
+                <h2>Projeto 3</h2>
+                <button class="btn3">Em Analize</button>
+
+                <p>Prazo: 27/08/2024</p>
+                <p>Nossa equipe de análistas da Fortes irá analizar a esta solicitação enviada em alguns dias.</p>
+
+            </div>
+        </div>
+    </div>
+    <script src="status.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,90 @@
+body {
+    font-family: 'Inika', serif;
+    background-color: #C0C0C0;
+    /* Cinza Prateado */
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-image: url('empresa.jpg');
+    /* imagem de fundo */
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+/* menu */
+.nav {
+    background-color: #0037a5;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu {
+    color: #fff;
+    text-decoration: none;
+    padding: 15px;
+    transition: background-color 0.3s ease;
+}
+
+.menu:hover {
+    background-color: #003091;
+}
+
+div.esp {
+    padding: 0px 0px 50px;
+}
+
+/* fim do menu */
+
+
+.container {
+    display: block;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 300px;
+    height: auto;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2rem;
+    color: #0044cc;
+}
+
+.bold-text {
+    font-weight: bold;
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+a .btn {
+    background-color: #0044cc;
+    color: #fff;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+a .btn:hover {
+    background-color: #003399;
+}

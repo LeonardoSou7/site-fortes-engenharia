@@ -1,0 +1,66 @@
+body {
+    font-family: 'Inika', serif;
+    background-color: #C0C0C0;
+    /* Cinza Prateado */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('guindaste.jpg');
+    /* imagem de fundo */
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.container {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 800px;
+    margin: 50px;
+
+}
+
+.bold-text {
+    font-weight: bold;
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: justify;
+
+}
+
+a .buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+a .btn {
+    background-color: #0044cc;
+    color: #fff;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+a .btn:hover {
+    background-color: #003399;
+}
+
+
+html ::-webkit-scrollbar {
+    width: 13px;
+}
+
+html ::-webkit-scrollbar-thumb {
+    border-radius: 2px;
+    background: #4673cc;
+}
+
+html ::-webkit-scrollbar-track {
+    background: #fff;
+}

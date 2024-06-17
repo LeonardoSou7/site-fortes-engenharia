@@ -1,0 +1,89 @@
+body {
+    font-family: 'Inika', serif;
+    background-color: #c0c0c0;
+    /* Cinza Prateado */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    background-image: url('predios5.jpg');
+    /* imagem de fundo */
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    text-align: center;
+}
+
+header {
+    margin-bottom: 10px;
+}
+
+.logo {
+    width: 210px;
+    height: auto;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+    margin: 10px 0 5px;
+    text-align: left;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+a .buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+a .btn {
+    background-color: #0044cc;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 45%;
+    text-align: center;
+}
+
+a .btn:hover {
+    background-color: #003399;
+}
+
+
+html ::-webkit-scrollbar {
+    width: 13px;
+}
+
+html ::-webkit-scrollbar-thumb {
+    border-radius: 2px;
+    background: #4673cc;
+}
+
+html ::-webkit-scrollbar-track {
+    background: #fff;
+}
