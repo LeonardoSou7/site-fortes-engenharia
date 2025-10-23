@@ -1,0 +1,1 @@
+Este é parte de um projeto de um site para a empresa engenharia fortes, é um esqueleto feito em sua grande maioria de html e css. Contêm a tela inicial, uma tela saiba mais, cadastrar, logar, recuperar senha, tela inicial após login e algumas mais opções de layout.
